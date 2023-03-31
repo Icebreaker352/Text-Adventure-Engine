@@ -1,0 +1,22 @@
+{
+  "text": "Yes or  no?",
+  "paths": {
+    "Yes": {
+      "text": "Are you sure?",
+      "paths": {
+        "No": {
+          "text": "You said no!"
+        },
+        "Yes": {
+          "text": "You said yes!"
+        },
+        "Maybe": {
+          "text": "Okay, maybe you'll decide later."
+        }
+      }
+    },
+    "No": {
+      "redirect": "Yes.No"
+    }
+  }
+}
